@@ -3,6 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --baseColor: #121d55;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -10,6 +11,22 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+}
+
+.navBar {
+  background-color: var(--baseColor);
+  height: 60px;
+  width: 100%;
+}
+
+.standups {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  /* height: 10rem; */
+  margin: 0 auto;
+  padding: 60px 40px;
+  width: 50rem;
 }
 
 body {
