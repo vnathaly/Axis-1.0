@@ -1,22 +1,23 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-  --baseColor: #121d55;
+  --baseColor: #262836;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 .navBar {
   background-color: var(--baseColor);
-  height: 60px;
-  width: 100%;
+  display: flex;
+  gap: 2px;
+  /* overflow: hidden; */
+}
+
+.searchBox {
+  background-color: aliceblue;
+  /* gap: 5px; */
+  height: auto;
+  /* justify: center; */
+  margin: 9px; 
 }
 
 .standups {

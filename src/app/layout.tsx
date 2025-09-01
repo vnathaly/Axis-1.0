@@ -27,7 +27,14 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="navBar">HOLAA</div>
+        <div className="navBar">
+          <div>
+            {/* <input type="text" className="md:w-auto" placeholder="Search" /> */}
+          <div className="w-11 btn btn-ghost btn-circle avatar ml-auto" role="button">
+            <img src="https://img.icons8.com/?size=100&id=rrtYnzKMTlUr&format=png&color=000000" alt="Aqui va un icono"/>
+          </div>
+        </div>
+          </div>
         {children}
       </body>
     </html>
