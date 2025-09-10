@@ -1,28 +1,29 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+/* :root {
+  
+} */
+
 .navBar {
   background-color: var(--baseColor);
   display: flex;
   gap: 2px;
-  /* overflow: hidden; */
 }
 
 .searchBox {
   background-color: aliceblue;
-  /* gap: 5px; */
   height: auto;
-  /* justify: center; */
   margin: 9px; 
 }
 
+.videos {
+  background-color: lab(35.6337% -1.58697 -10.8425);
+  
+}
+
 .standups {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  /* height: 10rem; */
-  margin: 0 auto;
-  padding: 60px 40px;
-  width: 50rem;
+  background-color: lab(35.6337% -1.58697 -10.8425);
+  border-radius: 0.375rem;
 }
 
