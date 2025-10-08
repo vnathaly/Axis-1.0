@@ -15,6 +15,7 @@ export default async function RootLayout({
       <body>
       <Header />
         {children}
+        {/* <standups/> */}
       </body>
     </html>
     </ClerkProvider>

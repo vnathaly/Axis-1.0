@@ -154,7 +154,7 @@ export const STANDUPS = [
         title: "S.O.L.I.D Software Design Principles",
         autor: "Yelmi Almonte",
         description: "",
-        url: "https://youtu.be/-osbyYAoCpU"
+        url: "https://youtu.be/-osbyYAoCpU" 
     },
     {
         id: 22,
