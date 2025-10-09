@@ -4,14 +4,17 @@ import { STANDUPS } from "../api/standups/data";
 export default function reproList() {
     return (
         <>
-         <div className="grid grid-cols-3 p-9"> 
+         {/* <div className="grid grid-cols-3 p-9"> 
             <div className="w-auto h-screem col-span-2">
-                <div className="h-133 rounded-md bg-slate-500 m-3 ">
-                    <video>{STANDUPS.map((m) => 
+                <div className="h-133 rounded-md bg-slate-500 m-3 "> */}
+                    {/* {const list = STANDUPS.map((m) => <li>{m}</li>)} */}
+                    {/* <video>{STANDUPS.map((m) => 
+                    
                     
                     <ul>
                         <li key={m.id}>
-                            <a href="m.url" target="Video"/>
+                            
+                            <a href="#">hey</a> 
                         </li>
                     </ul>
                     
@@ -24,26 +27,47 @@ export default function reproList() {
                 <div className="mt-1 standups">
                     <figure>
                         <video className="w-full" src="/videoprueba.mp4">
-                            {/* <source src="/videoprueba.mp4"/> */}
-                        </video>
+                            <source src="/videoprueba.mp4"/> */}
+                        {/* </video>
                     </figure>
                 </div>
                 <div className="rounded-md bg-slate-500">
                     <figure>
-                        <video className="w-full" src="/videoprueba.mp4">
+                        <video className="w-full" src="/videoprueba.mp4"> */}
                             {/* <source src="/videoprueba.mp4"/> */}
-                        </video>
+                        {/* </video>
                     </figure>
                 </div>
                 <div className="rounded-md bg-slate-500">
                     <figure>
-                        <video className="w-full" src="/videoprueba.mp4">
+                        <video className="w-full" src="/videoprueba.mp4"> */}
                             {/* <source src="/videoprueba.mp4"/> */}
-                        </video>
+                        {/* </video>
                     </figure>
                 </div>
             </div>
-         </div>
+         </div> */}
+
+            <div className="grid grid-cols-3 p-9">
+
+                <div className="h-full grid grid-cols-1 gap-3 p-2">
+                    {STANDUPS.map((data)=>
+                <ul>
+                    <li key={data.id}>
+                        <div className="rounded-md bg-slate-500">
+                            <a href={data.url}>
+                                {data.description}
+                                {data.autor}
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+                )}
+                </div>
+                
+            </div>
+
+
         </>
     );
 }
