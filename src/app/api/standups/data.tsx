@@ -126,7 +126,8 @@ export const STANDUPS = [
         id: 17,
         title: "A Brief Intro To Machine Learning",
         autor: "Juan Ortíz",
-        description: "https://youtu.be/nRsEC1N3xZE",
+        description: "",
+        url: "https://youtu.be/nRsEC1N3xZE"
     },
     {
         id: 18,
