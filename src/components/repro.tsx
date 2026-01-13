@@ -9,6 +9,7 @@ export default function Repro() {
                     <ul >
                         {STANDUPS.map((data) =>
                         
+                        
                             <div className="rounded-md p-2">
                                 <Iframe url={data.url}
                                     width="640px"
@@ -18,6 +19,7 @@ export default function Repro() {
                                     display="block"
                                     position="relative" />
                             </div>
+                            
                                 
                                 // <div className="rounded-md bg-slate-500">
 
