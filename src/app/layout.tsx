@@ -2,6 +2,7 @@ import { Header } from "@/components/header";
 import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
 
+
 export default async function RootLayout({
   
   children,
@@ -14,8 +15,8 @@ export default async function RootLayout({
     <html lang="en">
       <body>
       <Header />
-        {children}
         {/* <standups/> */}
+        {children}
       </body>
     </html>
     </ClerkProvider>

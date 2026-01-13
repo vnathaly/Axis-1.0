@@ -15,7 +15,7 @@ export const STANDUPS = [
         title: "La IA: Tu nuevo compañero de equipo",
         autor: "Sergio Lantigua",
         description: "",
-        url: "https://youtu.be/h90yBuHAJh8"
+        url: "https://www.youtube.com/embed/h90yBuHAJh8?si=Vm3MOcTDhbqYMX-I"
     },
     {
         id: 2,
