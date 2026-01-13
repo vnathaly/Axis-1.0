@@ -50,7 +50,7 @@ export const STANDUPS = [
         title: "Gestión de monorepos con Turborepo",
         autor: "Crhistopher Suriel",
         description: "",
-        url: "https://www.youtube.com/watch?v=Dr9bl0kZS6E&feature=youtu.be"
+        url: "https://www.youtube.com/embed/Q76sLQ7SYxo?si=HVqVqM7UsaWAAp7p"
     },
     {
         id: 7,
