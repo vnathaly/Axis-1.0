@@ -8,6 +8,7 @@ import Comments from "@/components/comemts";
 // const list = STANDUPS.map((m:any) => <li>{m}</li>)
 
 export default function ReproducctionView() {
+
     return (
         console.log(STANDUPS),
         <>

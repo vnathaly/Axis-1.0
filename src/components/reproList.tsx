@@ -8,7 +8,8 @@ export default function ReproList() {
                  <div className=" h-full grid grid-cols-1 gap-3 p-2">
 
                 {STANDUPS.map((data) => {
-                    if (data.id !== 1) {
+                    if (data.id !== 1 && !!data.url) {
+
                         return (
                             <div key={data.id} className="rounded-md p-2  cursor-pointer mt-1 standups">
                                 <Iframe url={data.url}
