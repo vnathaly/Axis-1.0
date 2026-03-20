@@ -1,7 +1,16 @@
-import app from './app';
+import app from "./app";
+import AppDataSource from "./config/database"
 
 const PORT = 3000;
 
-app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
-})
+AppDataSource.initialize()
+  .then(() => {
+    console.log("DB conectada y sincronizada");
+
+    app.listen(PORT, () => {
+      console.log(`Server running on http://localhost:${PORT}`);
+    });
+  })
+  .catch((err) => {
+    console.error("Error DB:", err);
+  });

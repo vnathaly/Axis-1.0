@@ -12,6 +12,8 @@
     "forceConsistentCasingInFileNames": true,
 
     "types": ["node"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
 
     "sourceMap": true
   }
